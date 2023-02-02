@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font awesome kit -->
+
+    <script
+      src="https://kit.fontawesome.com/d5d25df65b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <h2>Travel.</h2>
+        <div class="nav-links" id="navlinks">
+          <i
+            class="fa-sharp fa-solid fa-circle-xmark fa"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+          </ul>
+        </div>
+        <div class="text-box">
+          <h1>Travel Arround The World</h1>
+          <p>
+            Lorem ipsum amet consectetur adipisicing elit. Cumque dignissimos
+            est voluptatem facilis dolores!
+
+            <br />
+            dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <a class="hero-btn" href="">Know More</a>
+        </div>
+        <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+      </nav>
+    </section>
+    <section class="services">
+      <h1>Our Services</h1>
+      <div class="row">
+        <div class="service-col">
+          <img src="./images//icon-1.png" />
+          <h4>Advanture</h4>
+        </div>
+        <div class="service-col">
+          <img src="./images//icon-2.png" />
+          <h4>Advanture</h4>
+        </div>
+        <div class="service-col">
+          <img src="./images//icon-3.png" />
+          <h4>Advanture</h4>
+        </div>
+        <div class="service-col">
+          <img src="./images//icon-4.png" />
+          <h4>Advanture</h4>
+        </div>
+        <div class="service-col">
+          <img src="./images//icon-5.png" />
+          <h4>Advanture</h4>
+        </div>
+        <div class="service-col">
+          <img src="./images//icon-6.png" />
+          <h4>Advanture</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="row">
+        <div class="about-col">
+          <img src="./images//about-img.jpg" alt="" srcset="" />
+        </div>
+        <div class="about-col">
+          <h1>Travel Arround The World</h1>
+          <p>
+            Lorem ipsum amet consectetur adipisicing elit. Cumque dignissimos
+            est voluptatem facilis dolores!
+
+            <br />
+            dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <a class="hero-btn" href="">Know More</a>
+        </div>
+      </div>
+    </section>
+    <section class="package">
+      <h1>Our Packages</h1>
+      <div class="row">
+        <div class="package-col">
+          <img src="./images/img-1.jpg" alt="" srcset="" />
+          <h2>Advanture & Tour</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a class="hero-btn" href="">Know More</a>
+        </div>
+        <div class="package-col">
+          <img src="./images/img-2.jpg" alt="" srcset="" />
+          <h2>Advanture & Tour</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a class="hero-btn" href="">Know More</a>
+        </div>
+        <div class="package-col">
+          <img src="./images/img-3.jpg" alt="" srcset="" />
+          <h2>Advanture & Tour</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <a class="hero-btn" href="">Know More</a>
+        </div>
+      </div>
+      <a class="hero-btn" href="">Know More</a>
+    </section>
+    <section class="off">
+      <h1>Upto 50% Off</h1>
+      <p>
+        Lorem ipsum amet consectetur adipisicing elit. Cumque dignissimos est
+        voluptatem facilis dolores!
+
+        <br />
+        dolor sit, amet consectetur adipisicing elit.
+      </p>
+      <a class="hero-btn" href="">Know More</a>
+    </section>
+    <section class="footer">
+    
+        <!-- <h2 class="header-text">questioin? call 999 999 999</h2> -->
+        <div class="row">
+            <div class="col">
+                <a href="">FAQ</a>
+                <a href="">Investor relations</a>
+                <a href="">Privacy</a>
+                <a href="">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="">Help Center</a>
+                <a href="">Jobs</a>
+                <a href="">Cookie Preferences</a>
+                <a href="">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="">Account</a>
+                <a href="">Ways to Watch</a>
+                <a href="">Corporate Information</a>
+                <a href="">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="">Media Center</a>
+                <a href="">Terms of Use</a>
+                <a href="">Contact Us</a>
+         
+        </div>
+        <!-- <button class="language-btn">
+            English
+            <img src="./images//down-icon.png" />
+          </button> -->
+      
+    </div>
+    <p class="copyright-text">Have a nice journey <i class="fa-solid fa-heart  fa"></i></p>
+    </section>
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById('navlinks')
+      function showMenu() {
+        navLinks.style.right = '0%'
+        // navLinks.style.height= '100vh';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-100%'
+      }
+    </script>
+  </body>
+</html>
